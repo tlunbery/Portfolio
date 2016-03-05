@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <!-- Meta Tags -->
+          <meta charset="UTF-8" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <!--  Favicons -->
+          <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+          <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+          <link rel="manifest" href="manifest.json">
+          <!-- Google Fonts -->        
+          <link href='http://fonts.googleapis.com/css?family=Lato:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
+          <!-- CSS Style Sheets -->
+          <link rel="stylesheet" type="text/css" href="css/main.css"/>
+          <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width: 568px)" href="css/phone.css"/>
+          <link rel="stylesheet" type="text/css" media="screen and (min-width: 569px) and (max-width: 667px)" href="css/phablet.css"/>
+          <link rel="stylesheet" type="text/css" media="screen and (min-width: 668px) and (max-width: 1024px)" href="css/tabletmini.css"/>
+          <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1399px)" href="css/tablet.css"/> -->
+          <link rel="stylesheet" href="css/animate.css">
+          <!-- <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css"> -->
+						<!-- Script Links -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script src="js/wow.js"></script>
+          <title>Thomas Lunbery | Portfolio</title>
+          <script type="text/javascript">new WOW().init();</script>   
+          <script>
+               function togglecp(){
+                    var cp = document.getElementById("cp"); 
+                    var image = document.getElementById("ham");
+                         cp.style.height = window.innerHeight - 60 + "px";
+                                                       
+                         if(cp.style.right == "0px"){ 
+                              cp.style.right = "-200px"; 
+                              image.src = "img/ham.png";
+                                                            
+                         } else { 
+                              cp.style.right = "0px";
+                              image.src = "img/x.png";
+                              }
+                         }
+
+
+window.addEventListener("load", function(){
+var load_screen = document.getElementById("load_screen");
+document.body.removeChild(load_screen); });
+
+
+/*
+function displaySpinner(){
+	var spinner = document.getElementById("container");
+	
+		if(window.onload == true){
+			spinner.className="show";
+			} else{
+				
+				spinner.className= "spinner-loader";
+				(this).style="display:none";
+				}
+}*/
+          </script>
+     </head>
+     <body>
+<div id="load_screen"><div id="loading"><img id="spinimage" class="spinner-loader" src="img/white_bg.png" /></div></div>
+          
+<div id="cp">
+     <!-- <div class="menu_nav">
+     <a href="#" onclick="togglecp()"><strong>Home</strong></a><br />
+     <a href="aboutme.html" onclick="togglecp()">About<span style="color:#b26300">&#160;&#160;&#187;</span></a><br />
+     <a href="#tech_skills" onclick="togglecp()">Skills<span style="color:#b26300">&#160;&#160;&#187</a></span></a><br />
+     <a href="#personal_skills" onclick="togglecp()">Strengths<span style="color:#b26300">&#160;&#160;&#187</span></a><br />
+     <a href="#projects" onclick="togglecp()">Work<span style="color:#b26300">&#160;&#160;&#187</span></a><br />
+     <a href="#contact" onclick="togglecp()">Contact<span style="color:#b26300">&#160;&#160;&#187</span></a><br />
+     </div> -->
+     <div class="top_menu">
+     
+</div>
+</div>
+               <div id="header">
+                    <div id="top_name"><span id="top_thomas">Thomas</span><span id="top_lunbery">Lunbery</span></div>
+                    <!-- <div id="ham_menu"><img id="ham" src="img/ham.png" height="40" width="40" alt="Mobile Menu Button" onclick="togglecp()">
+                    </div> -->
+                    <div id="menu"><a href="aboutme.html">About</a><span class="bullet">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#tech_skills">Skills</a><span class="bullet">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#personal_skills">Strengths</a><span class="bullet">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#projects">Work</a><span class="bullet">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#contact">Contact</a>
+                    </div>
+               </div>
+               <div id="main_road_pic">
+                    <div id="main_road_pic_text">
+                         <p class="">web development</p>
+                         <p class="">front-end design</p>
+                         <p class="">website optimization</p>
+                         <p class="">responsive layouts</p>
+                    </div>
+                    </div>
+                    <div id="main">
+                         <div id="main_text">															<!--<img id="down_arrow" alt="Down Arrow" src="img/down.png" height="50" width="50" />
+                        <h3 class="section_title">deleloper</h3>-->
+                         <!-- <img src="img/brackets_min.png" alt="Thomas Lunbery" height="60" width="60" id="main_me_pic" /> -->
+                         <p id="main_text"><strong style="color:#b26300">Hello </strong> I'm Tom, and I'm a developer.  I Develop for the Web and strive to make things beautiful, and functional.  The Web is constantly changing and it's important to embrace these changes to help move technology forward.  For this, there are always new things to discover in development, which is great because I love to learn.  I try to learn something new every day because it helps me grow.<br /><br />Want to learn more <span id="learnmore"><a href="aboutme.html" id="about">about me</a></span>?</br /><br />Or, check out my skills...</p>
+                         </div>
+                    </div>
+                    <div id="tech_skills">
+                         <h3 class="section_title">Skills</h3>
+                              <div id="tech_skills_list">
+                                   <p>HTML5</p>
+                                   <p>CSS3</p>
+                                   <p>JavaScript</p>
+                                   <p>jQuery</p>
+                                   <p>PHP</p>
+							<p>MySQL</p>
+                                   <p>SQL</p>
+                                   <p>WordPress</p>
+                                   <p>Photoshop</p>
+                                   <p>Design</p>
+                              </div>
+                              <div id="tech_skills_lines">
+                                   <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0s" /></p>
+                                   <p><img src="img/line8.png" alt="Descriptive Line 8" class="wow animated zoomIn" data-wow-delay="0.05s" /></p>
+                                   <p><img src="img/line7.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.10s" /></p>
+                                   <p><img src="img/line6.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.15s" /></p>
+                                   <p><img src="img/line6.png" alt="Descriptive Line 5" class="wow animated zoomIn" data-wow-delay="0.20s" /></p>
+                                   <p><img src="img/line5.png" alt="Descriptive Line 5" class="wow animated zoomIn" data-wow-delay="0.25s" /></p>
+                                   <p><img src="img/line7.png" alt="Descriptive Line 7" class="wow animated zoomIn" data-wow-delay="0.30s" /></p>
+                                   <p><img src="img/line7.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.35s" /></p><p><img src="img/line8.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.40s" /></p><p><img src="img/line6.png" alt="Descriptive Line 3" class="wow animated zoomIn" data-wow-delay="0.45s" /></p><br /><br />
+                                   </div>
+                              <div class="skills_bottom_text"><strong>Familar tools include:</strong> Dreamweaver, Sublime Text, Gimp, Paint.net, Gulp, FileZilla, and Git/GitHub.<br />
+                              Along with skills, you need to be personable, dependable, and work well with others.  I've got those...
+                              </div> 
+                    </div>
+                    <div id="personal_skills">
+                         <h3 class="section_title">Strengths</h3>
+                              <div id="personal_skills_lines">
+                                   <p><img src="img/line9.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0s" /></p>
+                                   <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.05s" /></p>
+                                   <p><img src="img/line9.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.10s" /></p>
+                                   <p><img src="img/line7.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.15s" /></p>
+                                   <p><img src="img/line5.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.20s" /></p>
+                                   <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.25s" /></p>
+                                   <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.30s" /></p>
+                                             <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.35s" /></p>
+                                   <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.40s" /></p>
+                                             <p><img src="img/line8.png" alt="Descriptive Line 9" class="wow animated zoomIn" data-wow-delay="0.45s" /></p>
+                              </div>
+                              <div id="personal_skills_list">
+                                   <p>Dependable</p>
+                                   <p>Analytical</p>
+                                   <p>Hard-working</p>
+                                   <p>Adaptive</p>
+                                   <p>Humorous</p>
+                                   <p>Communication</p>
+                                   <p>Meticulous</p>
+                                   <p>Imaginative</p>
+                                   <p>Driven</p>
+                                   <p>Capable</p><br /><br />
+                              </div>     
+                              <div><p class="skills_bottom_text">Using my strengths and skills, I have freelanced the following projects...</p>
+                              </div> 
+                    </div>
+                    <div id="work">
+                         <h3 class="section_title">Work</h3>
+                         <div>
+						<p class="projects_sites"><a href="http://www.ccwyd.thomaslunbery.com"><img src="img/responsive.png" class="thumbnails" alt="Colorado Connection to World Youth Day"></a><br /><br />
+                              <strong>Thomas Lunbery Portfolio</strong><br /><br />
+                              <strong>Built with:</strong> HTML5, CSS3, PHP, SASS, Gulp, JavaScript, Responsive, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
+                              <p class="projects_sites"><a href="http://www.starreadymix.thomaslunbery.com"><img src="img/responsive_desktop.png" class="thumbnails" alt="Star Ready Mix" ></a><br /><br />
+                              <strong>Star Ready Mix, Inc.</strong><br /><br />
+                              <strong>Built with:</strong> HTML, CSS, JavaScript, Responsive, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
+                              <p class="projects_sites"><a href="http://www.ccwyd.thomaslunbery.com"><img src="img/responsive_mobile.png" class="thumbnails" alt="Colorado Connection to World Youth Day"></a><br /><br />
+                              <strong>Connection to World Youth Day</strong><br /><br /><strong>Built with:</strong> HTML, CSS, JavaScript, Bootstrap, Responsive, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
+                              <p class="projects_sites"><a href="http://www.ccwyd.thomaslunbery.com"><img src="img/responsive_mobile.png" class="thumbnails" alt="Colorado Connection to World Youth Day"></a><br /><br />
+                              <strong>Connection to World Youth Day</strong><br /><br /><strong>Built with:</strong> HTML, CSS, JavaScript, Bootstrap, Responsive, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
+                                                          
+                         </div>
+						<div class="skills_bottom_text">Along with websites, I like to work with other Web technologies on various applications.<br /><br />Check out my <a href="experiments.html"><span style="color:#b26300">experiments &#187;</span></a></div>
+				</div>
+                    
+                    <div id="contact">
+                         <h3 class="section_title">where to find me</h3>         
+                              <div id="contact_links">
+                                   <!-- Facebook Icon -->
+                                   <a href="http://www.linkedin.com"><img src="img/facebookmo.png" onmouseover="src='img/facebook.png'" onmouseout="src='img/facebookmo.png'" alt="Facebook Icon" class="wow animated flip" data-wow-delay="0.1s"></a>
+                                   <!-- Twitter Icon -->
+                                   <a href="http://www.twitter.com"><img src="img/twittermo.png" onmouseover="src='img/twitter.png'" onmouseout="src='img/twittermo.png'" alt="Twitter Icon" class="wow animated flip" data-wow-delay="0.15s"></a>
+                                   <!-- Meetup Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/meetupmo.png" onmouseover="src='img/meetup.png'" onmouseout="src='img/meetupmo.png'" alt="Meetup Icon" class="wow animated flip" data-wow-delay="0.2s"></a>
+                                   <!-- LinkedIn Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/linkedinmo.png" onmouseover="src='img/linkedin.png'" onmouseout="src='img/linkedinmo.png'" alt="LinkedIn Icon" class="wow animated flip" data-wow-delay="0.25s"></a>
+                                   <!-- Stackoverflow Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/stackoverflowmo.png" onmouseover="src='img/stackoverflow.png'" onmouseout="src='img/stackoverflowmo.png'" alt="Stackoverflow Icon" class="wow animated flip" data-wow-delay="0.3s"></a>
+                                   <!-- YouTube Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/youtubemo.png" onmouseover="src='img/youtube.png'" onmouseout="src='img/youtubemo.png'" alt="youtube Icon" class="wow animated flip" data-wow-delay="0.35s"></a>
+                                   <!-- Instagram Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/instagrammo.png" onmouseover="src='img/instagram.png'" onmouseout="src='img/instagrammo.png'" alt="Stackoverflow Icon" class="wow animated flip" data-wow-delay="0.4s"></a>
+                                   <!-- Maps Icon -->
+                                   <a href="https://www.google.com/maps/place/Greeley,+CO/@40.4292705,-104.9033516,11z/data=!3m1!4b1!4m2!3m1!1s0x876ea186c8af5e79:0xd2cfba804e0a121f"><img src="img/mapsmo.png" onmouseover="src='img/maps.png'" onmouseout="src='img/mapsmo.png'" alt="Maps Icon" class="wow animated flip" data-wow-delay="0.45s"></a>
+                                   <!-- Github Icon -->
+                                   <a href="mailto:contact@thomaslunbery.com"><img src="img/githubmo.png" onmouseover="src='img/github.png'" onmouseout="src='img/githubmo.png'" alt="Github Icon" class="wow animated flip" data-wow-delay="0.5s"></a>
+                              </div>
+                    </div>
+                    <div id="footer">&#0169;2016 Thomas Lunbery | <a href="#"><span id="footer_text">Resume</span></a> | <a href="#">Back to top</a></div>
+          </div>
+
+</body>
+</html>
+
+
+

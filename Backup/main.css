@@ -1,0 +1,494 @@
+body {
+	background-color: #ffffff;
+	margin: 0 auto;
+	font-size: 1.0em;
+	font-family: 'Lato', sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: #b26300;
+}
+
+a:hover {
+	color: #4e4e4e;
+}
+
+a:visited {
+	color: #b26300;
+}
+	
+a:visited:hover {
+	color: #b26300;
+}
+
+/******************** Main Content ***********************/
+
+#main_road_pic {
+	clear: both;
+	background-image: url('../img/orange_texture.png');
+	background-size: cover;
+	height: 450px;
+	width: 100%;
+	font-size: 1em;
+	padding-top: 60px;
+	font-weight: 900;
+}
+
+.section_title {
+	text-align: center;
+	text-shadow: 0px 0px 1px #555;
+	width: 100%;
+	color: #b26300;
+	font-size: 1.7em;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-transform: uppercase;
+	color: #f0f0e0;
+}
+
+#top_name {
+	font-size: 2.8em;
+	width: 50%;
+	text-align: left;
+	background-color: #f0f0e0;
+	border-bottom: 2px;
+	border-bottom-style: groove;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+
+}
+
+/*mobile view*/
+@media screen and (max-width: 800px) {
+    #header {
+        font-size: 0.8em;
+    }
+}
+
+#top_thomas {
+	padding-left: 50px;
+	color: #b26300;
+}
+
+#top_lunbery {
+	font-weight: 900;
+	color: #1e1e1e;
+}
+
+#menu {
+	font-size: 1.0em;
+	float: right;
+	width: 50%;
+	background-color: #f0f0e0;
+	text-align: center;
+	border-bottom: 2px;
+	border-bottom-style: groove;
+	color: #1e1e1e;
+	font-weight: 900;
+}
+
+#header a:link {
+	color: #1e1e1e;
+}
+
+#header a:visited {
+	color: #bbbbbb;
+}
+
+#header a:hover {
+	color: #808080;
+}
+
+.menu_nav {
+	color: #ffffff;
+	padding-top: 90px;
+	text-align: left;
+	padding-left: 40px;
+	font-size: 0.8em;
+	display: inline;
+}
+
+.bullet {
+	color: #b26300;
+
+}
+
+#ham {
+	display: none;
+	background-color: #ffffff;
+	width: 50%;
+	float: left;
+}
+
+#tech_skills {
+	font-size: 1.0em;
+	background-image: url('../img/45.png');
+	background-color: #4E4E4E;
+	padding-top: 70px;
+	height: 750px;
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+
+#tech_skills_list {
+	float: left;
+	height: 400px;
+	background-color: #333333;
+	padding-right: 4%;
+	width: 45%;
+	text-align: right;
+	padding-top: 30px;
+	color: #8a8a8a;
+	border: 2px;
+	border-right: 0px;
+	border-color: #dddddd;
+	border-style: ridge;
+	text-shadow: 0px 0px 0.5px #bbbbbb;
+
+}
+
+#tech_skills_lines {
+	float: left;
+	height: 400px;
+	background-color: #333333;
+	padding-left: 4%;
+	width: 45%;
+	padding-top: 30px;
+	border: 2px;
+	border-left: 0px;
+	border-color: #dddddd;
+	border-style: ridge;
+}
+
+#tech_skills img {
+	box-shadow: 0px 0px 5px #b5b5b5;
+	border-radius: 10px;
+	border: 2px solid #dddddd;
+}
+
+#tech_skills .skills_bottom_text {
+	clear: both;
+	color: #8a8a8a;
+	padding-top: 50px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.1em;
+	line-height: 35px;
+}
+
+/******************** About Me ********************/
+
+#about_me {
+	text-align: center;
+	clear: both;
+	padding-top: 30px;
+	margin: 0px;
+	}
+
+#experiments {
+	text-align: center;
+	clear: both;
+	padding-top: 30px;
+	margin: 0px;
+}
+	
+#personal_skills {
+
+	background-color: #f0f0e0;
+	padding-top: 100px;
+	height: 700px;
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#personal_skills_lines {
+	float: left;
+	height: 400px;
+	background-color: #f2f2f2;
+	padding-right: 4%;
+	width: 45%;
+	text-align: right;
+	padding-top: 30px;
+	color: #8a8a8a;
+	border: 3px;
+	border-right: 0px;
+	border-color: #dddddd;
+	border-style: ridge;
+}
+
+#personal_skills_list {
+	float: left;
+	height: 400px;
+	background-color: #f2f2f2;
+	padding-left: 4%;
+	width: 45%;
+	color: #8a8a8a;
+	padding-top: 30px;
+	border: 3px;
+	border-left: 0px;
+	border-color: #dddddd;
+	border-style: ridge;
+	text-shadow: 0px 0px 0.5px #bbbbbb;
+}
+
+#personal_skills img {
+	box-shadow: 0px 0px 3px #b5b5b5;
+	border-radius: 10px;
+	border: 2px solid #b5b5b5;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1); 
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1); filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+#personal_skills .skills_bottom_text {
+	clear: both;
+	color: #8a8a8a;
+	padding-top: 50px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.1em;
+	line-height: 35px;
+}
+
+#work {
+	background-image: url('../img/orange_texture1.png');
+	height: 1080px;
+	padding-top: 100px;
+	background-color: #333333;
+	color: #8a8a8a;
+	padding-right: 10%;
+	padding-left: 10%;
+	text-align: center;
+}
+
+#work .skills_bottom_text {
+	clear: both;
+	color: #8a8a8a;
+	padding-top: 50px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.1em;
+	line-height: 35px;
+}
+
+.thumbnails {
+	width: 40%;
+	opacity: 1;
+	padding-left: 75px;
+	padding-right: 75px;
+	/*padding-top: 50px;*/
+	margin-top: 50px;
+	
+}
+
+.projects_sites {
+	width: 50%;
+	padding: 0px 0px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+
+#main_road_pic_text {
+	padding-top: 40px;
+	font-size: 2.0em;
+	color: #fefefe	;
+	text-shadow: 0px 0px 5px #333;
+	text-align: center;
+}
+
+#main {
+	width: 100%;
+	height: 500px;
+	background-color: #f0f0e0;
+
+
+}
+
+#main_text {
+	background-color: #f0f0e0;
+	font-size: 1.1em;
+	width: 70%;
+	padding-top: 30px;
+	line-height: 35px;
+	text-align: justify;
+	padding-left: 15%;
+	padding-right: 15%;
+	color: #8a8a8a;
+	
+}
+
+#contactme a {
+	color: #b26300;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#contactme a:hover {
+	color: #000;
+}
+
+hr {
+	clear: both;
+	height: 0px;
+	width: 300px;
+	border: 1px dotted rgba(0, 0, 0, 0.0);
+	text-align: center;
+}
+
+#footer a {
+color: #b26300;
+}
+
+#footer a:hover {
+	color: #8a8a8a;
+}
+
+#main_me_pic {
+	border-radius: 7px 0px 7px 0px;
+	border: 1px solid #454545;
+	box-shadow: 0px 0px 3px #ccc;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+	transform: rotate(0deg);
+
+}
+
+#beaker_pic {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	opacity: 0.6;
+		-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1); 
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1); filter: FlipH;
+	-ms-filter: "FlipH";
+	transform: rotate(3deg);
+}
+
+
+#about_me_pic {
+	border-radius: 50%;
+	background-color: #fff; /*#e8e8e8; */
+	box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.3);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+
+
+#learnmore a {
+	color: #b26300;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#learnmore a:hover {
+	color: #000;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+/******************** Projects ********************/
+
+#git_text a {
+	color: #b26300;
+	font-size: 1em;
+}
+
+#git_text a:hover {
+	color: #3B3B3B;
+}	
+
+#git_pic {
+	border-radius: 0%;
+	vertical-align: -3px;
+	opacity: 0.4;
+}
+
+
+
+
+/******************** Contact ********************/
+
+#contact {
+	background-color: #333333;
+	padding-top: 100px;
+	height: 400px;
+	width: 100%;
+}
+
+#contact_email {
+	padding-top: 125px;
+	font-size: 48px;
+}
+
+#contact_links {
+	text-align: center;
+	padding-top: 100px;
+	/*box-shadow: 0px 0px 5px #ffffff;*/
+
+}
+
+#contact_links img {
+	margin: 0px 5px;
+	border: 1px solid #8a8a8a;
+}
+
+#contact_links img a {
+	padding-right: 50px;
+}
+
+
+/******************** Footer ********************/
+
+
+#footer {
+	clear: both;
+	background-image: url('../img/road_min_orange1.png');
+	background-size : cover;
+	height: 200px;
+  	width: 100%;
+	/*padding-top: 100px;*/
+	text-align: center;
+	line-height: 200px;
+	color: #f0f0e0;
+	font-size: 1em;
+}
+
+#footer a:link {
+	color: #333333;
+}
+
+#footer a:visited {
+	color: #333333;
+}
+
+#footer a:hover {
+	color: #bbbbbb;
+}
+
+

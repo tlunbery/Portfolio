@@ -1,0 +1,89 @@
+#about_me { height: 800px; }
+
+#about_me img { text-align: center; }
+
+#aboutme .section_title, #experiments .section_title { padding-top: 50px; margin-bottom: 16px; }
+
+#aboutme_text, #experiments_text { width: 70%; padding: 0px 15%; line-height: 150%; color: #8a8a8a; text-align: left; }
+
+#bottom_wrapper { opacity: 1; transition: opacity 0.50s ease-in-out 0s; }
+
+#contact { height: 400px; }
+
+#contact_links { padding-top: 60px; }
+
+#contact_links img { margin: 20px 20px; }
+
+#cp { position: fixed; margin-top: 62px; padding-left: 0px; right: -250px; width: 250px; background: #d4d2c5; transition: right 0.25s ease-in-out 0s; z-index: 10; overflow: auto; display: block; }
+
+#cp a:link { color: #333333; }
+
+.cp_link { color: #333333; }
+
+#desktop_nav { display: none; }
+
+#experiments { height: 700px; background-color: #ffffff; }
+
+#footer { height: 120px; line-height: 120px; }
+
+#header { height: 60px; line-height: 60px; background-color: #f0f0e0; border-bottom-width: 2px; position: fixed; z-index: 10; }
+
+.hr { display: block; height: 1px; border: 0; width: 248px; border-top: 2px groove; padding: 0; }
+
+#learnmore a { color: #b26300; }
+
+#main { height: 825px; padding: 0px; margin: 0px; }
+
+#main_road_pic { background: transparent; height: 250px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
+
+#main_road_pic_text { font-size: 1.5em; color: #f0f0e0; padding: 30px 0px; }
+
+#main_text { padding: 18px 18px 30px 18px; margin: 0px auto; width: 90%; font-size: 1.1em; }
+
+#main_text .section_title { text-transform: none; }
+
+#menu { width: 20%; height: 60px; background-color: #f0f0e0; padding: 0px 0px 0px 0px; margin: 0px; }
+
+#mobile_nav { display: inline-block; line-height: 60px; height: 50px; padding: 0px; margin-top: 10px; }
+
+#mypic { border-radius: 50%; box-shadow: 0px 0px 2px 1px #b26300; text-align: center; margin: 0 auto; }
+
+#personal_skills { height: 740px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
+
+#personal_skills img { -webkit-transform: scaleX(-1); -ms-transform: scaleX(-1); transform: scaleX(-1); -webkit-filter: FlipH; filter: FlipH; -ms-filter: "FlipH"; box-shadow: 0px 0px 5px #c5c5c5; }
+
+#personal_skills_lines { width: 45%; padding-left: 20px; padding-right: 0px; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; margin-left: 9px; }
+
+#personal_skills_list { width: 30%; margin-right: 2px; padding-right: 20px; padding-left: 25px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
+
+#pic_top { text-align: center; padding: 0px; margin: 18px 0px 0px 0px; background-color: #f0f0e0; }
+
+#projects { height: 1400px; margin: 0px auto; background-color: #e8e8e8; color: #8a8a8a; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.projects_sites { width: 80%; padding: 0px 30px; text-align: center; line-height: 150%; }
+
+#projects_top_text { width: 100%; padding-top: 20px; font-weight: 900; text-align: center; line-height: 2; }
+
+.skills_bottom_text { clear: both; width: 80%; text-align: left; clear: both; color: #8a8a8a; line-height: 150%; }
+
+#slide_menu { padding: 0px; padding-top: 20px; text-align: center; margin-left: 0px; list-style: none; line-height: 240%; font-size: 1.3em; display: block; }
+
+.slider_img { height: 55px; width: 55px; border-radius: 50%; box-shadow: 0px 0px 2px 1px #b26300; text-align: center; display: inline-block; }
+
+#tech_skills { height: 910px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
+
+#tech_skills .skills_bottom_text { color: #b3b3b3; }
+
+#tech_skills_lines { width: 45%; padding-right: 17px; padding-left: 0px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
+
+#tech_skills_list { width: 30%; margin-left: 18px; padding-left: 10px; padding-right: 25px; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
+
+.projects_sites img { margin: 0 auto; padding: 0px; width: 90%; text-align: center; margin-bottom: 10px; margin-top: 50px; display: block; opacity: 1; }
+
+.thumbtitle { font-size: 1.5em; font-family: 'Lato', sans-serif; color: #fff; text-shadow: 1px 0px #636363; }
+
+#top_name { width: 75%; font-size: 1.6em; padding-left: 5px; display: inline-block; }
+
+#top_thomas { padding: 0px 0px 0px 10px; }
+
+#work { background-image: none; background-color: #D4D2C5; height: 1940px; padding-top: 100px; }
