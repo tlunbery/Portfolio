@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-          <?php require('./_includes/headinfo.php'); ?>    
+          <?php require('./includes/headinfo.php'); ?>    
      </head>
      <body>
           <div id="top_wrapper">
@@ -9,7 +9,7 @@
                     <div id="loading"><img id="spinimage" class="spinner-loader" src="img/white_bg.png" alt="Spinner Image" />
                     </div>
                </div>
-               <?php require('./_includes/header.php'); ?>
+               <?php require('./includes/header.php'); ?>
           </div>
           <div id="bottom_wrapper">
                <div id="main_road_pic" class="parallax-window" data-parallax="scroll" data-image-src="img/144.jpg">
@@ -130,7 +130,7 @@
                          <a href="http://github.com/tlunbery"><img src="img/github.png" onmouseover="src='img/githubmo.png'" onmouseout="src='img/github.png'" alt="Github Icon" class="wow animated flip" data-wow-delay="0.75s"></a>
                     </div>
                </div><!-- Contact -->
-               <?php require('./_includes/footer.php'); ?>
+               <?php require('./includes/footer.php'); ?>
           </div><!-- Wrapper -->
      </body>
 </html>
