@@ -24,7 +24,7 @@
           <link rel="stylesheet" type="text/css" href="css/style.css"/>
           <link rel="stylesheet" type="text/css" media="screen and (max-width: 736px)" href="css/phone.css"/>
           <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1399px)" href="css/tablet.css"/> -->
-          <link rel="stylesheet" href="css/animate1.css">
+          <link rel="stylesheet" href="css/animate.css">
           <!-- Script Links -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
           <script src="js/wow.js"></script>
