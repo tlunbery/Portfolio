@@ -23,7 +23,7 @@
                <div id="main">
                     <div id="main_text">
                     	<p id="pic_top"><img src="img/TL_logo_min.png" class="slider_img" alt="TL Logo Image" /></p>
-                         <p><strong class="wow animated fadeInUpBig" style="color:#b26300">&nbsp;&nbsp;Holy crud </strong> I'm Tom, and I love to create.  I make responsive, browser compatible websites using HTML5, CSS3, and JavaScript.  I have knowledge of back-end technologies PHP and MySQL as well as database design and the query language SQL.  I also understand the importance of a good user experience and optimize sites for performance and load time.<br><br> If you want to learn more about me, check out <span id="learnmore"><a href="aboutme.php" id="about">My Story</a></span>.<br><br>Or, check out my skills. . .</p>
+                         <p><strong class="wow animated fadeInUpBig" style="color:#b26300">&nbsp;&nbsp;Boodigy </strong> I'm Tom, and I love to create.  I make responsive, browser compatible websites using HTML5, CSS3, and JavaScript.  I have knowledge of back-end technologies PHP and MySQL as well as database design and the query language SQL.  I also understand the importance of a good user experience and optimize sites for performance and load time.<br><br> If you want to learn more about me, check out <span id="learnmore"><a href="aboutme.php" id="about">My Story</a></span>.<br><br>Or, check out my skills. . .</p>
                     </div>
                </div>
                <div id="tech_skills"><h3 class="section_title">Development Skills</h3>
