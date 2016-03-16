@@ -52,7 +52,7 @@
                          <p><img src="img/line6.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.45s" /></p>
                          <br><br>
                     </div>
-                         <div class="skills_bottom_text"><strong>Familar tools include:</strong> Sublime Text, Notepad++, SASS, Gulp, Paint.net, Gimp, FileZilla, and Git/GitHub.<br><br>
+                         <div class="skills_bottom_text"><strong>Familar tools include:</strong> Sublime Text, Dreamweaver, Chrome Developer Tools, SASS, Gulp, Photoshop, Paint.net, Gimp, FileZilla, and Git/GitHub.<br><br>
                          Along with skills, you need to be personable, dependable, and work well with others.&nbsp;&nbsp;I've got those...
                          </div> 
                </div><!-- Tech Skills -->
