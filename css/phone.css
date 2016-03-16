@@ -32,7 +32,7 @@
 
 #learnmore a { color: #b26300; }
 
-#main { height: 825px; padding: 0px; margin: 0px; }
+#main { height: 700px; padding: 0px; margin: 0px; }
 
 #main_road_pic { background-image: url("../img/cc1.jpg"); background: transparent; height: 250px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
 
@@ -70,7 +70,7 @@
 
 .slider_img { height: 55px; width: 55px; border-radius: 50%; box-shadow: 0px 0px 2px 1px #b26300; text-align: center; display: inline-block; }
 
-#tech_skills { height: 910px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
+#tech_skills { height: 970px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
 
 #tech_skills .skills_bottom_text { color: #b3b3b3; }
 
