@@ -22,8 +22,8 @@
           <link href="http://fonts.googleapis.com/css?family=Lato:400,900,400italic,900italic" rel="stylesheet" type="text/css">
           <!-- CSS Style Sheets -->
           <link rel="stylesheet" type="text/css" href="css/style.css"/>
-          <link rel="stylesheet" type="text/css" media="screen and (max-width: 736px)" href="css/phone.css"/>
-          <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 1025px) and (max-width: 1399px)" href="css/tablet.css"/> -->
+          <link rel="stylesheet" type="text/css" media="screen and (max-width: 799px)" href="css/phone.css"/>
+          <link rel="stylesheet" type="text/css" media="screen and (min-width: 800px) and (max-width: 1399px)" href="css/tablet.css"/>
           <link rel="stylesheet" href="css/animate.css">
           <!-- Script Links -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

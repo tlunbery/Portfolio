@@ -12,7 +12,7 @@
                <?php require('./includes/header.php'); ?>
           </div>
           <div id="bottom_wrapper">
-               <div id="main_road_pic" class="parallax-window" data-parallax="scroll" data-image-src="img/144.jpg">
+               <div id="main_road_pic" class="parallax-window" data-parallax="scroll" data-image-src="img/darkcode3.jpg">
                     <div id="main_road_pic_text">
                          <p class="">web development</p>
                          <p class="">front-end design</p>
@@ -23,7 +23,7 @@
                <div id="main">
                     <div id="main_text">
                     	<p id="pic_top"><img src="img/TL_logo_min.png" class="slider_img" alt="TL Logo Image" /></p>
-                         <p><strong class="wow animated fadeInUpBig" style="color:#b26300">&nbsp;&nbsp;Hello </strong> I'm Tom, and I love to create.  I make responsive, browser compatible websites using HTML5, CSS3, and JavaScript.  I have knowledge of back-end technologies PHP and MySQL as well as database design and the query language SQL.  I also understand the importance of a good user experience and optimize sites for performance and load time.<br><br> If you want to learn more about me, check out <span id="learnmore"><a href="aboutme.php" id="about">My Story</a></span>.<br><br>Or, check out my skills. . .</p>
+                         <p><strong class="wow animated fadeInUpBig" style="color:#b26300">&nbsp;&nbsp;Hello </strong> I'm Tom, and I love to create.  I make responsive, browser compatible websites using HTML5, CSS3, and JavaScript.  I have knowledge of back-end technologies PHP and MySQL as well as database design and the query language SQL.  I also understand the importance of a good user experience and optimize sites for performance and load time.<br><br> If you want to learn more about me, check out <span id="learnmore"><a href="aboutme.php" id="about">My Story</a></span>.<br><br>Or, check out my skills...</p>
                     </div>
                </div>
                <div id="tech_skills"><h3 class="section_title">Development Skills</h3>
@@ -53,7 +53,7 @@
                          <br><br>
                     </div>
                          <div class="skills_bottom_text"><strong>Familar tools include:</strong> Sublime Text, Notepad++, SASS, Gulp, Paint.net, Gimp, FileZilla, and Git/GitHub.<br><br>
-                         Along with skills, you need to be personable, dependable, and work well with others.&nbsp;&nbsp;I've got those. . .
+                         Along with skills, you need to be personable, dependable, and work well with others.&nbsp;&nbsp;I've got those...
                          </div> 
                </div><!-- Tech Skills -->
                <div id="personal_skills"><h3 class="section_title">Personal Strengths</h3>
@@ -81,7 +81,7 @@
                          <p>Driven</p>
                          <p>Responsible</p><br /><br />
                     </div>     
-                    <div><p class="skills_bottom_text">Using my strengths and skills, I have worked on the following projects. . .</p>
+                    <div><p class="skills_bottom_text">Using my strengths and skills, I have worked on the following projects...</p>
                     </div> 
                </div><!-- Personal Skills -->
                <div id="work"><h3 class="section_title">My Work</h3>
@@ -109,7 +109,7 @@
                          <strong>Lefever Building Systems</strong><br/><br/>
                          <strong>Built with:</strong> HTML, CSS</p>
 				</div>
-				<div class="skills_bottom_text">Along with websites, I like to experiment with other Web technologies on various applications.&nbsp;&nbsp;Check out my <a href="sandbox.php"><span style="color:#b26300">Sandbox</span></a>.<br /><br />If you need help on your next project, or just want to chat, get in touch. . . 
+				<div class="skills_bottom_text">Along with websites, I like to experiment with other Web technologies on various applications.&nbsp;&nbsp;Check out my <a href="sandbox.php"><span style="color:#b26300">Sandbox</span></a>.<br /><br />If you need help on your next project, or just want to chat, get in touch... 
                     </div>
 			</div><!-- Work -->
                <div id="contact"><h3 class="section_title">where to find me</h3>         

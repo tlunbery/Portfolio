@@ -1,0 +1,85 @@
+// Variables
+$orange: #b26300;
+$off_white: #f0f0e0;
+$text_gray: #8a8a8a;
+
+#cp {
+  position: fixed;
+  margin-top: 62px;
+  padding-left: 0px;
+  right: -250px;
+  width: 250px;
+  background: rgba(212, 210, 197, 1);
+  transition: right 0.25s ease-in-out 0s;
+  z-index: 10;
+  overflow: auto;
+  display: block;
+  a:link {
+    color: #333333;
+  }
+}
+
+#desktop_nav {
+  display: none;
+}
+
+#header {
+  height: 60px;
+  line-height: 60px;
+  background-color: $off_white;
+  border-bottom-width: 2px;
+  position: fixed;
+  z-index: 10;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  width: 248px;
+  border-top: 2px groove;
+  padding: 0;
+}
+
+#main_road_pic_text {
+  font-size: 1.7em;
+  color: $off_white;
+  padding: 80px 0px;
+}
+
+#menu {
+  width: 20%;
+  height: 60px;
+  background-color: $off_white;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+#mobile_nav {
+  display: inline-block;
+  line-height: 60px;
+  height: 50px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+#slide_menu {
+  padding: 0px;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 0px;
+  list-style: none;
+  line-height: 240%;
+  font-size: 1.3em;
+  display: block;
+}
+
+#tech_skills {
+  height: 910px;
+}
+
+#top_name {
+  font-size: 2.0em;
+  padding-left: 5px;
+  display: inline-block;
+}

@@ -34,7 +34,7 @@
 
 #main { height: 825px; padding: 0px; margin: 0px; }
 
-#main_road_pic { background: transparent; height: 250px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
+#main_road_pic { background-image: url("../img/cc1.jpg"); background: transparent; height: 250px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
 
 #main_road_pic_text { font-size: 1.5em; color: #f0f0e0; padding: 30px 0px; }
 

@@ -151,10 +151,10 @@ body {
 }
 
 #header {
-  height: 100px;
+  height: 80px;
   width: 100%;
   text-shadow: 0px 0px 1px #555555;
-  line-height: 100px;
+  line-height: 80px;
   text-transform: uppercase;
   color: #f0f0e0;
   border-bottom-width: 2px;
@@ -215,7 +215,6 @@ hr {
   clear: both;
   // background-image: url('../img/road_orange.png');
   background-size: cover;
-  background: transparent;
   height: 450px;
   width: 100%;
   padding-top: 60px;
@@ -248,7 +247,7 @@ hr {
   font-size: 1.0em;
   float: right;
   width: 40%;
-  background-color: #f0f0e0;
+  background-color: rgba(240, 240, 224, 0.8);
   text-align: center;
   color: #1e1e1e;
   font-weight: 900;
@@ -377,7 +376,7 @@ p {
 
 #tech_skills {
   font-size: 1.0em;
-  background-image: url('../img/gray_texture_min.jpg');
+  background-image: url('../img/cc1.jpg');
   padding-top: 70px;
   height: 750px;
   width: 60%;
@@ -447,12 +446,12 @@ p {
   font-size: 2.7em;
   width: 60%;
   text-align: left;
-  background-color: #f0f0e0;
+  background-color: rgba(240, 240, 224, 0.8);
   display: inline-block;
 }
 
 #top_thomas {
-  padding-left: 50px;
+  padding-left: 25px;
   color: $orange;
 }
 
