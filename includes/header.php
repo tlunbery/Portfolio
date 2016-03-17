@@ -19,7 +19,7 @@
                          </div>
                     </div><!-- CP -->
                     <div id="top_name">
-                         <span id="top_thomas">Thomas</span><span id="top_lunbery">Lunbery</span>
+                         <a href="http://thomaslunbery.com/"><span id="top_thomas">Thomas</span><span id="top_lunbery">Lunbery</span></a>
                     </div>
                     <div id="menu">
                          <span id="desktop_nav">
