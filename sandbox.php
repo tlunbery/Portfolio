@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
      <head>
-     <?php require('./_includes/headinfo.php'); ?>     
+     <?php require('./includes/headinfo.php'); ?>     
      </head>
      <body>
           <div id="top_wrapper">
@@ -9,7 +9,7 @@
                     <div id="loading"><img id="spinimage" class="spinner-loader" src="img/white_bg.png" />
                     </div>
                </div>
-          <?php require('./_includes/header.php'); ?>     
+          <?php require('./includes/header.php'); ?>     
           </div>
           <div id="bottom_wrapper">
                <div id="main">
@@ -18,7 +18,7 @@
                          <p id="main_text">Check back soon!</p>
                     </div>
                </div>
-          <?php require('./_includes/footer.php'); ?>  
+          <?php require('./includes/footer.php'); ?>  
           </div><!-- Wrapper -->
      </body>
 </html>
