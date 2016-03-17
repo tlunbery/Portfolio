@@ -116,7 +116,8 @@ body {
 
 #footer {
   clear: both;
-  background-image: url('../img/orange_texture_min.jpg');
+  //background-image: url('../img/orange_texture_min.jpg');
+  background-color: rgba(178, 99, 0, 0.9);
   background-size: cover;
   height: 200px;
   width: 100%;
@@ -151,10 +152,10 @@ body {
 }
 
 #header {
-  height: 80px;
+  height: 100px;
   width: 100%;
   text-shadow: 0px 0px 1px #555555;
-  line-height: 80px;
+  line-height: 100px;
   text-transform: uppercase;
   color: #f0f0e0;
   border-bottom-width: 2px;
@@ -197,7 +198,7 @@ hr {
 
 #main {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: #f0f0e0;
 }
 
@@ -215,7 +216,7 @@ hr {
   clear: both;
   // background-image: url('../img/road_orange.png');
   background-size: cover;
-  height: 450px;
+  height: 500px;
   width: 100%;
   padding-top: 60px;
   font-size: 1em;
@@ -223,8 +224,7 @@ hr {
 }
 
 #main_road_pic_text {
-  // background-color: rgba(178, 99, 0, 0.65);
-  padding-top: 20px;
+  padding-top: 0px;
   font-size: 2.2em;
   color: #fefefe;
   text-shadow: 0px 0px 5px #333;
@@ -247,7 +247,7 @@ hr {
   font-size: 1.0em;
   float: right;
   width: 40%;
-  background-color: rgba(240, 240, 224, 0.8);
+  background-color: rgba(240, 240, 224, 1.0);
   text-align: center;
   color: #1e1e1e;
   font-weight: 900;
@@ -276,7 +276,7 @@ p {
 #personal_skills {
   background-color: #f0f0e0;
   padding-top: 100px;
-  height: 700px;
+  height: 900px;
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
@@ -305,7 +305,7 @@ p {
 
 #personal_skills_lines {
   float: left;
-  height: 400px;
+  height: 500px;
   background-color: #f2f2f2;
   padding-right: 4%;
   width: 45%;
@@ -320,7 +320,7 @@ p {
 
 #personal_skills_list {
   float: left;
-  height: 400px;
+  height: 500px;
   background-color: #f2f2f2;
   padding-left: 4%;
   width: 45%;
@@ -378,7 +378,7 @@ p {
   font-size: 1.0em;
   background-image: url('../img/cc1.jpg');
   padding-top: 70px;
-  height: 750px;
+  height: 950px;
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
@@ -401,7 +401,7 @@ p {
 
 #tech_skills_lines {
   float: left;
-  height: 400px;
+  height: 500px;
   background-color: #333333;
   padding-left: 4%;
   width: 45%;
@@ -414,7 +414,7 @@ p {
 
 #tech_skills_list {
   float: left;
-  height: 400px;
+  height: 500px;
   background-color: #333333;
   padding-right: 4%;
   width: 45%;
@@ -446,7 +446,7 @@ p {
   font-size: 2.7em;
   width: 60%;
   text-align: left;
-  background-color: rgba(240, 240, 224, 0.8);
+  background-color: rgba(240, 240, 224, 1.0);
   display: inline-block;
 }
 
@@ -457,7 +457,7 @@ p {
 
 #work {
   background-image: url('../img/white_texture_min.jpg');
-  height: 1080px;
+  height: 1200px;
   padding-top: 100px;
   color: $text_gray;
   padding-right: 10%;
