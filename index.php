@@ -12,7 +12,7 @@
                <?php require('./includes/header.php'); ?>
           </div>
           <div id="bottom_wrapper">
-               <div id="main_road_pic" class="parallax-window" data-parallax="scroll" data-image-src="img/darkcode3.jpg">
+               <div id="main_road_pic" class="parallax-window" data-parallax="scroll" data-image-src="img/workspace.jpg">
                     <div id="main_road_pic_text">
                          <p class="">web development</p>
                          <p class="">front-end design</p>
