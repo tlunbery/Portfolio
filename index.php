@@ -87,7 +87,7 @@
                <div id="work"><h3 class="section_title">My Work</h3>
                     <div id="work_projects">
 				   	<!-- Personal Portfolio -->
-                         <p class="projects_sites"><a href="http://www.ccwyd.thomaslunbery.com"><img src="img/responsive.png" class="" alt="Colorado Connection to World Youth Day"></a><br />
+                         <p class="projects_sites"><img src="img/responsive_portfolio.png" class="" alt="Colorado Connection to World Youth Day"><br />
                          <strong>Personal Portfolio</strong><br /><br />
                          <strong>Built with:</strong> HTML5, CSS3, SASS, Gulp, JavaScript, Responsive, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a>
 					</p>
@@ -97,17 +97,17 @@
 					<strong>Adapted existing WordPress site to responsive using: </strong>HTML5, CSS3, jQuery, PHP, WordPress, Responsive
 					</p> -->
                          <!-- Star Ready Mix -->
-                         <p class="projects_sites"><a href="http://www.starreadymix.thomaslunbery.com"><img src="img/responsive_mobile.png" alt="Star Ready Mix" ></a><br />
+                         <p class="projects_sites"><img src="img/responsive_mobile_star.png" alt="Star Ready Mix" ><br />
                          <strong>Star Ready Mix, Inc.</strong><br /><br />
                          <strong>Built with:</strong> HTML, CSS, JavaScript, Mobile, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
                          <!-- Colorado Connection to World Youth Day -->
-                         <p class="projects_sites"><a href="http://www.ccwyd.thomaslunbery.com"><img src="img/responsive_desktop.png" alt="Colorado Connection to World Youth Day"></a><br />
+                         <p class="projects_sites"><img src="img/responsive_desktop_ccwyd.png" alt="Colorado Connection to World Youth Day"><br />
                          <strong>Colorado Connection to World Youth Day</strong><br /><br />
                          <strong>Built with:</strong> HTML, CSS, <a href="http://www.github.com/tlunbery"><span style="color:#b26300">GitHub</span></a></p>
                          <!-- Lefever Building -->            
-                         <p class="projects_sites"><img src="img/responsive_desktop.png" alt="Lefever Building Systems" ><br/>
+                         <!-- <p class="projects_sites"><img src="img/responsive_desktop.png" alt="Lefever Building Systems" ><br/>
                          <strong>Lefever Building Systems</strong><br/><br/>
-                         <strong>Built with:</strong> HTML, CSS</p>
+                         <strong>Built with:</strong> HTML, CSS</p> -->
 				</div>
 				<div class="skills_bottom_text">Along with websites, I like to experiment with other Web technologies on various applications.&nbsp;&nbsp;Check out my <a href="sandbox.php"><span style="color:#b26300">Sandbox</span></a>.<br /><br />If you need help on your next project, or just want to chat, get in touch... 
                     </div>

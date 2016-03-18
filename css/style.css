@@ -126,6 +126,6 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 #top_thomas { padding-left: 25px; color: #b26300; }
 
-#work { background-image: url("../img/white_texture_min.jpg"); height: auto; padding-bottom: 50px; padding-top: 100px; color: #8a8a8a; padding-right: 10% auto; padding-left: 10% auto; text-align: center; }
+#work { background-color: #D4D2C5; height: auto; padding-bottom: 50px; padding-top: 100px; color: #8a8a8a; padding-right: 10% auto; padding-left: 10% auto; text-align: center; }
 
 #work .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }
