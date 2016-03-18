@@ -2,17 +2,17 @@
 '<div id="header">
                     <div id="cp">
                          <div id="slide_menu">
-						<a href="#" onclick="togglecp()" class="cp_links" >Home</a><br />
+						<a href="http://thomaslunbery.com/" onclick="togglecp()" class="cp_links" >Home</a><br />
                                    <hr class="hr">
                               <a href="aboutme.php" onclick="togglecp()" class="cp_links" >About</a><br />
                                    <hr class="hr">                
-						<a href="#tech_skills" onclick="togglecp()" class="cp_links" >Skills</a><br />
+						<a href="http://thomaslunbery.com/#tech_skills" onclick="togglecp()" class="cp_links" >Skills</a><br />
                                    <hr class="hr">
-                              <a href="#personal_skills" onclick="togglecp()">Strengths</a><br />
+                              <a href="http://thomaslunbery.com/#personal_skills" onclick="togglecp()">Strengths</a><br />
                                    <hr class="hr">
-                              <a href="#work" onclick="togglecp()">Work</a><br />
+                              <a href="http://thomaslunbery.com/#work" onclick="togglecp()">Work</a><br />
                                    <hr class="hr">
-                              <a href="#contact" onclick="togglecp()">Contact</a><br />
+                              <a href="http://thomaslunbery.com/#contact" onclick="togglecp()">Contact</a><br />
                               <a href="http://www.facebook.com/tlunbery"><img src="img/facebookmo.png" height="40" width="40" alt="Facebook Icon" /></a>
                               <a href="http://twitter.com/tlunbery"><img src="img/twittermo.png" height="40" width="40" alt="Mobile Menu Button" /></a>
                               <a href="mailto:contact@thomaslunbery.com"><img src="img/emailmo.png" height="40" width="40" alt="Mobile Menu Button" /></a>

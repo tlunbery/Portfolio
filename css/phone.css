@@ -32,11 +32,11 @@
 
 #learnmore a { color: #b26300; }
 
-#main { height: 700px; padding: 0px; margin: 0px; }
+#main { padding: 0px; margin: 0px; }
 
-#main_road_pic { background-image: url("../img/cc1.jpg"); background: transparent; height: 400px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
+#main_road_pic { background-image: url("../img/cc1.jpg"); background: transparent; height: 330px; margin: 0px; padding-top: 40px; padding-bottom: 40px; }
 
-#main_road_pic_text { font-size: 1.5em; color: #ffffff; padding: 65px 0px; }
+#main_road_pic_text { font-size: 1.5em; color: #ffffff; padding: 70px 0px; }
 
 #main_text { padding: 18px 18px 30px 18px; margin: 0px auto; width: 90%; font-size: 1.1em; }
 
@@ -48,7 +48,7 @@
 
 #mypic { border-radius: 50%; box-shadow: 0px 0px 2px 1px #b26300; text-align: center; margin: 0 auto; }
 
-#personal_skills { height: 850px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
+#personal_skills { width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
 
 #personal_skills img { -webkit-transform: scaleX(-1); -ms-transform: scaleX(-1); transform: scaleX(-1); -webkit-filter: FlipH; filter: FlipH; -ms-filter: "FlipH"; box-shadow: 0px 0px 5px #c5c5c5; }
 
@@ -70,7 +70,7 @@
 
 .slider_img { height: 55px; width: 55px; border-radius: 50%; box-shadow: 0px 0px 2px 1px #b26300; text-align: center; display: inline-block; }
 
-#tech_skills { height: 1050px; width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
+#tech_skills { width: 100%; padding-left: 0px; padding-right: 0px; padding-top: 100px; }
 
 #tech_skills .skills_bottom_text { color: #b3b3b3; }
 
@@ -78,7 +78,7 @@
 
 #tech_skills_list { width: 30%; margin-left: 18px; padding-left: 10px; padding-right: 25px; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
 
-.projects_sites img { margin: 0 auto; padding: 0px; width: 90%; text-align: center; margin-bottom: 10px; margin-top: 50px; display: block; opacity: 1; }
+.projects_sites img { margin: 0 auto; padding: 0px; width: 75%; text-align: center; margin-bottom: 10px; margin-top: 50px; display: block; opacity: 1; }
 
 .thumbtitle { font-size: 1.5em; font-family: 'Lato', sans-serif; color: #fff; text-shadow: 1px 0px #636363; }
 
@@ -86,4 +86,4 @@
 
 #top_thomas { padding: 0px 0px 0px 10px; }
 
-#work { background-image: none; background-color: #D4D2C5; height: 2300px; padding-top: 100px; }
+#work { background-image: none; background-color: #D4D2C5; padding-top: 100px; }

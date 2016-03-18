@@ -42,13 +42,13 @@ $text_gray: #8a8a8a;
 }
 
 #main {
-  height: 500px;
+  //height: 500px;
  }
 
 #main_road_pic_text {
   font-size: 1.7em;
   color: #ffffff;
-  padding: 80px 0px;
+  padding: 100px 0px;
 }
 
 #menu {
@@ -67,6 +67,17 @@ $text_gray: #8a8a8a;
   margin-top: 10px;
 }
 
+.projects_sites img {
+  margin: 0 auto;
+  padding: 0px;
+  width: 75%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  display: block;
+  opacity: 1;
+}
+
 #slide_menu {
   padding: 0px;
   padding-top: 20px;
@@ -79,7 +90,8 @@ $text_gray: #8a8a8a;
 }
 
 #tech_skills {
-  height: 910px;
+  //height: auto;
+  //padding-bottom: 50px;
 }
 
 #top_name {

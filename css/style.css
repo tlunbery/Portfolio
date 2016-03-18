@@ -68,13 +68,13 @@ hr { clear: both; height: 0px; width: 300px; border: 1px dotted transparent; tex
 
 #load_screen { display: none; }
 
-#main { width: 100%; height: 400px; background-color: #f0f0e0; }
+#main { width: 100%; height: auto; padding-bottom: 50px; background-color: #f0f0e0; }
 
 #main_me_pic { border-radius: 7px 0px 7px 0px; border: 1px solid #454545; box-shadow: 0px 0px 3px #ccc; margin-top: 30px; margin-bottom: 30px; opacity: 0.7; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
 
 #main_road_pic { clear: both; background-size: cover; height: 500px; width: 100%; padding-top: 60px; font-size: 1em; font-weight: 900; }
 
-#main_road_pic_text { padding-top: 0px; font-size: 2.2em; color: #fefefe; text-shadow: 0px 0px 5px #333; text-align: center; }
+#main_road_pic_text { padding: 50px 0px; font-size: 2.2em; color: #fefefe; text-shadow: 0px 0px 5px #333; text-align: center; }
 
 #main_text { background-color: #f0f0e0; font-size: 1.1em; width: 70%; padding-top: 30px; line-height: 35px; text-align: left; padding-left: 15%; padding-right: 15%; color: #8a8a8a; }
 
@@ -88,15 +88,15 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 .parallax-window { background: transparent; }
 
-#personal_skills { background-color: #f0f0e0; padding-top: 100px; height: 900px; width: 60%; padding-left: 20%; padding-right: 20%; }
+#personal_skills { background-color: #f0f0e0; height: auto; padding-bottom: 50px; padding-top: 100px; width: 60%; padding-left: 20%; padding-right: 20%; }
 
 #personal_skills img { box-shadow: 0px 0px 3px #b5b5b5; border-radius: 10px; border: 2px solid #b5b5b5; -webkit-transform: scaleX(-1); -ms-transform: scaleX(-1); transform: scaleX(-1); -webkit-filter: FlipH; filter: FlipH; -ms-filter: "FlipH"; }
 
 #personal_skills .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }
 
-#personal_skills_lines { float: left; height: 500px; background-color: #f2f2f2; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 3px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
+#personal_skills_lines { float: left; height: 430px; background-color: #f2f2f2; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 3px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
 
-#personal_skills_list { float: left; height: 500px; background-color: #f2f2f2; padding-left: 4%; width: 45%; color: #8a8a8a; padding-top: 30px; border: 3px; border-left: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 0.5px #bbbbbb; }
+#personal_skills_list { float: left; height: 430px; background-color: #f2f2f2; padding-left: 4%; width: 45%; color: #8a8a8a; padding-top: 30px; border: 3px; border-left: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 0.5px #bbbbbb; }
 
 #pic_top { text-align: center; padding: 0px; margin: 18px 0px 0px 0px; background-color: #f0f0e0; }
 
@@ -108,15 +108,15 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 .slider_img { display: none; }
 
-#tech_skills { font-size: 1.0em; background-image: url("../img/cc1.jpg"); padding-top: 70px; height: 950px; width: 60%; padding-left: 20%; padding-right: 20%; }
+#tech_skills { font-size: 1.0em; background-image: url("../img/cc1.jpg"); padding-top: 70px; height: auto; width: 60%; padding-bottom: 50px; padding-left: 20%; padding-right: 20%; }
 
 #tech_skills img { box-shadow: 0px 0px 5px #b5b5b5; border-radius: 10px; border: 2px solid #dddddd; }
 
 #tech_skills .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }
 
-#tech_skills_lines { float: left; height: 500px; background-color: #333333; padding-left: 4%; width: 45%; padding-top: 30px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
+#tech_skills_lines { float: left; height: 430px; background-color: #333333; padding-left: 4%; width: 45%; padding-top: 30px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
 
-#tech_skills_list { float: left; height: 500px; background-color: #333333; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 1px #bbbbbb; }
+#tech_skills_list { float: left; height: 430px; background-color: #333333; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 1px #bbbbbb; }
 
 .projects_sites img { width: 40%; opacity: 1; padding-left: 75px; padding-right: 75px; margin-top: 50px; /*padding-top: 50px;*/ }
 
@@ -126,6 +126,6 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 #top_thomas { padding-left: 25px; color: #b26300; }
 
-#work { background-image: url("../img/white_texture_min.jpg"); height: 1200px; padding-top: 100px; color: #8a8a8a; padding-right: 10%; padding-left: 10%; text-align: center; }
+#work { background-image: url("../img/white_texture_min.jpg"); height: auto; padding-bottom: 50px; padding-top: 100px; color: #8a8a8a; padding-right: 10% auto; padding-left: 10% auto; text-align: center; }
 
 #work .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }

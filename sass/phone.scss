@@ -100,7 +100,7 @@ body {
 }
 
 #main {
-  height: 700px;
+  //height: 700px;
   padding: 0px;
   margin: 0px;
 }
@@ -108,7 +108,7 @@ body {
 #main_road_pic {
   background-image: url('../img/cc1.jpg');
   background: transparent;
-  height: 400px;
+  height: 330px;
   margin: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -117,7 +117,7 @@ body {
 #main_road_pic_text {
   font-size: 1.5em;
   color: #ffffff;
-  padding: 65px 0px;
+  padding: 70px 0px;
 }
 
 #main_text {
@@ -154,7 +154,7 @@ body {
 }
 
 #personal_skills {
-  height: 850px;
+  //height: 850px;
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
@@ -252,7 +252,8 @@ body {
 }
 
 #tech_skills {
-  height: 1050px;
+  //height: 1050px;
+  //padding-bottom: 50px;
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
@@ -287,7 +288,7 @@ body {
 .projects_sites img {
   margin: 0 auto;
   padding: 0px;
-  width: 90%;
+  width: 75%;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 50px;
@@ -318,6 +319,6 @@ body {
 #work {
   background-image: none;
   background-color: #D4D2C5;
-  height: 2300px;
+  //height: 2300px;
   padding-top: 100px;
 }

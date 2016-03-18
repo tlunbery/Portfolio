@@ -198,7 +198,8 @@ hr {
 
 #main {
   width: 100%;
-  height: 400px;
+  height: auto;
+  padding-bottom: 50px;
   background-color: #f0f0e0;
 }
 
@@ -224,7 +225,7 @@ hr {
 }
 
 #main_road_pic_text {
-  padding-top: 0px;
+  padding: 50px 0px;
   font-size: 2.2em;
   color: #fefefe;
   text-shadow: 0px 0px 5px #333;
@@ -275,8 +276,9 @@ p {
 
 #personal_skills {
   background-color: #f0f0e0;
+  height: auto;
+  padding-bottom: 50px;
   padding-top: 100px;
-  height: 900px;
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
@@ -305,7 +307,7 @@ p {
 
 #personal_skills_lines {
   float: left;
-  height: 500px;
+  height: 430px;
   background-color: #f2f2f2;
   padding-right: 4%;
   width: 45%;
@@ -320,7 +322,7 @@ p {
 
 #personal_skills_list {
   float: left;
-  height: 500px;
+  height: 430px;
   background-color: #f2f2f2;
   padding-left: 4%;
   width: 45%;
@@ -378,8 +380,9 @@ p {
   font-size: 1.0em;
   background-image: url('../img/cc1.jpg');
   padding-top: 70px;
-  height: 950px;
+  height: auto;
   width: 60%;
+  padding-bottom: 50px;
   padding-left: 20%;
   padding-right: 20%;
   img {
@@ -401,7 +404,7 @@ p {
 
 #tech_skills_lines {
   float: left;
-  height: 500px;
+  height: 430px;
   background-color: #333333;
   padding-left: 4%;
   width: 45%;
@@ -414,7 +417,7 @@ p {
 
 #tech_skills_list {
   float: left;
-  height: 500px;
+  height: 430px;
   background-color: #333333;
   padding-right: 4%;
   width: 45%;
@@ -457,11 +460,12 @@ p {
 
 #work {
   background-image: url('../img/white_texture_min.jpg');
-  height: 1200px;
+  height: auto;
+  padding-bottom: 50px;
   padding-top: 100px;
   color: $text_gray;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 10% auto;
+  padding-left: 10% auto;
   text-align: center;
   .skills_bottom_text {
     clear: both;
