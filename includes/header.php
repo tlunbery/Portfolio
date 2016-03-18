@@ -13,7 +13,7 @@
                               <a href="http://thomaslunbery.com/#work" onclick="togglecp()">Work</a><br />
                                    <hr class="hr">
                               <a href="http://thomaslunbery.com/#contact" onclick="togglecp()">Contact</a><br />
-                              <a href="http://www.facebook.com/tlunbery"><img src="img/facebookmo.png" height="40" width="40" alt="Facebook Icon" /></a>
+                              <a href="https://www.facebook.com/tlunbery"><img src="img/facebookmo.png" height="40" width="40" alt="Facebook Icon" /></a>
                               <a href="http://twitter.com/tlunbery"><img src="img/twittermo.png" height="40" width="40" alt="Mobile Menu Button" /></a>
                               <a href="mailto:contact@thomaslunbery.com"><img src="img/emailmo.png" height="40" width="40" alt="Mobile Menu Button" /></a>
                          </div>

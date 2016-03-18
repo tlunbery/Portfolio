@@ -115,7 +115,7 @@
                <div id="contact"><h3 class="section_title">where to find me</h3>         
                     <div id="contact_links">
                          <!-- Facebook Icon -->
-                         <a href="http://www.facebook.com/tlunbery"><img src="img/facebook.png" onmouseover="src='img/facebookmo.png'" onmouseout="src='img/facebook.png'" alt="Facebook Icon" class="wow animated flip" data-wow-delay="0.15s"></a>
+                         <a href="https://www.facebook.com/tlunbery"><img src="img/facebook.png" onmouseover="src='img/facebookmo.png'" onmouseout="src='img/facebook.png'" alt="Facebook Icon" class="wow animated flip" data-wow-delay="0.15s"></a>
                          <!-- Twitter Icon -->
                          <a href="http://twitter.com/tlunbery"><img src="img/twitter.png" onmouseover="src='img/twittermo.png'" onmouseout="src='img/twitter.png'" alt="Twitter Icon" class="wow animated flip" data-wow-delay="0.25s"></a>
                          <!-- Meetup Icon -->
