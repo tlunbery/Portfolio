@@ -9,6 +9,7 @@ var reload = browserSync.reload;
 //var imageMin = require('gulp-imagemin');
 //var uncss = require('gulp-uncss');
 // var changed = require('gulp-changed');
+//var sftp = require('gulp-sftp');
 
 /* ---------------Gulpfile.js--------------- */
 
@@ -41,7 +42,20 @@ var reload = browserSync.reload;
 		gulp.watch(["./*.php"], reload);
 		gulp.watch(["css/*.css"], reload);
 	});
-  
+ 
+ /*
+// Sftp - Uploads files to hosting provider 
+	gulp.task('sftp', function () {
+		return gulp.src('src/*')
+		.pipe(sftp({
+			host: '',
+			user: '',
+			pass: ''
+			port: ''
+		}));
+	});
+*/
+
 /*  
  // Uglify - Minifies JavaScript files
 	gulp.task('compress', function() {
