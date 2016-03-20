@@ -2,15 +2,15 @@ var gulp = require('gulp');
 
 // Gulp Plugins
 var sass = require('gulp-sass');
-// var liveReload = require('gulp-livereload');
 var prefix = require('gulp-autoprefixer');
-// var uglify = require('gulp-uglify');
-// var imageMin = require('gulp-imagemin');
-var uncss = require('gulp-uncss');
-// var changed = require('gulp-changed');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
-// var php = require('gulp-connect-php');
+//var uglify = require('gulp-uglify');
+//var imageMin = require('gulp-imagemin');
+//var uncss = require('gulp-uncss');
+// var changed = require('gulp-changed');
+
+/* ---------------Gulpfile.js--------------- */
 
 // Default Task - Runs with 'gulp' Command
 	gulp.task('default', ['watch']);
@@ -34,7 +34,6 @@ var reload = browserSync.reload;
         	});
     	});
 
-	
 // Watch Task
 	gulp.task('watch', ['sass', 'browser-sync'], function() {
 		gulp.watch(["sass/*.scss"], ['sass']);
@@ -43,28 +42,29 @@ var reload = browserSync.reload;
 		gulp.watch(["css/*.css"], reload);
 	});
   
+/*  
+ // Uglify - Minifies JavaScript files
+	gulp.task('compress', function() {
+  		return gulp.src('lib/*.js')
+   		.pipe(uglify())
+    	.pipe(gulp.dest('dist'));
+	});
+*/
 
+/*
+// UnCSS - Removes unused CSS selectors 
+	gulp.task('uncss', function () {
+     	return gulp.src('css/test.css')
+        .pipe(uncss({
+         html: ['index.html', 'aboutme.html, experiments.html']
+	}))
+        .pipe(gulp.dest('build_css'));
+	});
+*/
 
-
-
-
-
-
-
-
-
-
-
-// // UnCSS - Removes unused CSS selectors 
-// 	gulp.task('uncss', function () {
-//     	return gulp.src('css/test.css')
-//         .pipe(uncss({
-//             html: ['index.html', 'aboutme.html, experiments.html']
-//         }))
-//         .pipe(gulp.dest('build_css'));
-// });
-
-// // Compress Task - Compresses images
-// 	gulp.task('image-compress', function() {
-// 		gulp.src('img/*').pipe(imageMin()).pipe(gulp.dest('img_min/'));
-// });
+/*
+// ImageMin - Compresses images
+	gulp.task('image-compress', function() {
+		gulp.src('img/*').pipe(imageMin()).pipe(gulp.dest('img_min/'));
+	});
+*/

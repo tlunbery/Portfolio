@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "3.0.1",
+  "description": "personal portfolio website",
+  "main": "index.php",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uncss": "^1.0.5"
+  },
+  "devDependencies": {
+    "gulp-changed": "^1.3.0",
+    "gulp-sftp": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlunbery/portfolio.git"
+  },
+  "author": "Thomas Lunbery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlunbery/portfolio/issues"
+  },
+  "homepage": "https://github.com/tlunbery/portfolio#readme"
+}
