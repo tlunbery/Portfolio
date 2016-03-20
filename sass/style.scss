@@ -307,12 +307,13 @@ p {
 
 #personal_skills_lines {
   float: left;
-  height: 460px;
+  height: auto;
   background-color: #f2f2f2;
   padding-right: 4%;
   width: 45%;
   text-align: right;
   padding-top: 30px;
+  padding-bottom: 30px;
   color: $text_gray;
   border: 3px;
   border-right: 0px;
@@ -322,12 +323,13 @@ p {
 
 #personal_skills_list {
   float: left;
-  height: 460px;
+  height: auto;
   background-color: #f2f2f2;
   padding-left: 4%;
   width: 45%;
   color: $text_gray;
   padding-top: 30px;
+  padding-bottom: 30px;
   border: 3px;
   border-left: 0px;
   border-color: #dddddd;
@@ -404,11 +406,12 @@ p {
 
 #tech_skills_lines {
   float: left;
-  height: 460px;
+  height: auto;
   background-color: #333333;
   padding-left: 4%;
   width: 45%;
   padding-top: 30px;
+  padding-bottom: 30px;
   border: 2px;
   border-left: 0px;
   border-color: #dddddd;
@@ -417,12 +420,13 @@ p {
 
 #tech_skills_list {
   float: left;
-  height: 460px;
+  height: auto;
   background-color: #333333;
   padding-right: 4%;
   width: 45%;
   text-align: right;
   padding-top: 30px;
+  padding-bottom: 30px;
   color: $text_gray;
   border: 2px;
   border-right: 0px;

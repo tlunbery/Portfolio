@@ -50,7 +50,6 @@
                          <p><img src="img/line5.png" alt="Descriptive Line 5" class="wow animated zoomIn" data-wow-delay="0.35s" /></p>
                          <p><img src="img/line5.png" alt="Descriptive Line 5" class="wow animated zoomIn" data-wow-delay="0.40s" /></p>
                          <p><img src="img/line6.png" alt="Descriptive Line 6" class="wow animated zoomIn" data-wow-delay="0.45s" /></p>
-                         <br><br>
                     </div>
                          <div class="skills_bottom_text"><strong>Familar tools include:</strong> Sublime Text, Dreamweaver, Chrome Developer Tools, SASS, Gulp, Browsersync, Paint.net, Gimp, FileZilla, and Git/GitHub.<br><br>
                          Along with skills, you need to be personable, dependable, and work well with others.&nbsp;&nbsp;I've got those...
@@ -79,7 +78,7 @@
                          <p>Meticulous</p>
                          <p>Imaginative</p>
                          <p>Driven</p>
-                         <p>Responsible</p><br /><br />
+                         <p>Responsible</p>
                     </div>     
                     <div><p class="skills_bottom_text">Using my strengths and skills, I have worked on the following projects...</p>
                     </div> 

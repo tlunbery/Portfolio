@@ -94,9 +94,9 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 #personal_skills .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }
 
-#personal_skills_lines { float: left; height: 460px; background-color: #f2f2f2; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 3px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
+#personal_skills_lines { float: left; height: auto; background-color: #f2f2f2; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; padding-bottom: 30px; color: #8a8a8a; border: 3px; border-right: 0px; border-color: #dddddd; border-style: ridge; }
 
-#personal_skills_list { float: left; height: 460px; background-color: #f2f2f2; padding-left: 4%; width: 45%; color: #8a8a8a; padding-top: 30px; border: 3px; border-left: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 0.5px #bbbbbb; }
+#personal_skills_list { float: left; height: auto; background-color: #f2f2f2; padding-left: 4%; width: 45%; color: #8a8a8a; padding-top: 30px; padding-bottom: 30px; border: 3px; border-left: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 0.5px #bbbbbb; }
 
 #pic_top { text-align: center; padding: 0px; margin: 18px 0px 0px 0px; background-color: #f0f0e0; }
 
@@ -114,9 +114,9 @@ p { font-family: 'Lato', sans-serif; font-weight: 400; }
 
 #tech_skills .skills_bottom_text { clear: both; color: #8a8a8a; padding-top: 50px; width: 80%; padding-left: 10%; padding-right: 10%; font-size: 1.1em; line-height: 35px; }
 
-#tech_skills_lines { float: left; height: 460px; background-color: #333333; padding-left: 4%; width: 45%; padding-top: 30px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
+#tech_skills_lines { float: left; height: auto; background-color: #333333; padding-left: 4%; width: 45%; padding-top: 30px; padding-bottom: 30px; border: 2px; border-left: 0px; border-color: #dddddd; border-style: ridge; }
 
-#tech_skills_list { float: left; height: 460px; background-color: #333333; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; color: #8a8a8a; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 1px #bbbbbb; }
+#tech_skills_list { float: left; height: auto; background-color: #333333; padding-right: 4%; width: 45%; text-align: right; padding-top: 30px; padding-bottom: 30px; color: #8a8a8a; border: 2px; border-right: 0px; border-color: #dddddd; border-style: ridge; text-shadow: 0px 0px 1px #bbbbbb; }
 
 .projects_sites img { width: 40%; opacity: 1; padding-left: 75px; padding-right: 75px; margin-top: 50px; /*padding-top: 50px;*/ }
 
